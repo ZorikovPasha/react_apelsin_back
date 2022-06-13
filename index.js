@@ -13,7 +13,6 @@ const app = express();
 
 app.use(cors({
   origin:'https://poetic-sunflower-351d96.netlify.app/', 
-  credentials:true,            //access-control-allow-credentials:true
   optionSuccessStatus:200,
 }));
 app.use(express.json());
