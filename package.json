@@ -10,7 +10,8 @@
     "mongoose": "^6.1.8"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "develop": "nodemon index.js"
   },
   "browserslist": {
     "production": [
